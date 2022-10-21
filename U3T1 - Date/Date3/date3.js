@@ -13,8 +13,8 @@ let fecha = new Date(ano,mes,dia)
 //15/10/2020
 console.log(fecha.toLocaleDateString())
 
+// Creo array clave:valor de dias y de meses, para crear string necesario
 //Jueves, 15 de octubre de 2020.
-
 let mapaDias = {0 : "Domingo", 1 : "Lunes", 2 : "Martes", 3 : "Miercoles", 4 : "Jueves",5 : "Viernes",6 : "Sabado"}
 let mapaMeses ={0: "Enero", 1: "Febrero", 2: "Marzo", 3 : "Abril", 4 : "Mayo", 5: "Junio", 6 : "Julio", 7 : "Agosto", 8 : "Septiembre", 9 : "Octubre", 10 : "Noviembre", 11 : "Diciembre"}
 console.log(mapaDias[fecha.getDay()]+ ", " + fecha.getDate() + " de " + mapaMeses[fecha.getMonth()] + " de " + fecha.getFullYear())

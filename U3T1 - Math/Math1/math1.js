@@ -14,14 +14,14 @@ Si el usuario introduce 4, se le pedirá un ángulo (entre 0 y 360) y se le most
 
 
 const prompt = require("prompt-sync")({sigint:true})
-
+//Creo do - while para pedir el parametro si se introduce mal
 do{
     console.log("Elige una de las siguientes opciones: ")
     console.log("1. Potencia \n2. Raíz\n3. Redondeo\n4. Trigonometría")
     var eleccion = prompt()
 }while(eleccion< 0 || eleccion>4)
 
-
+//Swith que dependiendo del parametro realiza una funcion u otra
 switch(eleccion){
     case "1":
         console.log("Introduce base: ")
@@ -31,6 +31,7 @@ switch(eleccion){
         console.log("La potencia de "+ base + " elevado a " + exponente + " es: " + Math.pow(base,exponente))
         break;
     case "2":
+        //Creo do - while para pedir el parametro si se introduce mal
         do{
             console.log("Introduce numero (no negativo): ")
             var numeroRaiz = prompt()
