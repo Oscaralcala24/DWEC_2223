@@ -1,5 +1,5 @@
 
-
+//Funcion flecha con un alert que tiene un operador ternario
 var parImpar = (numero) =>{
     alert(numero % 2 == 0 ? "Es par" : "Es impar");
 }
