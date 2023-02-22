@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <label for="CCAA">CCAA</label>
+    <select name="ccaa" id="ccaa">
+
+    </select>
+    <label for="d-entregadas">D.Entregadas</label>
+    <input type="number" name="d-entregadas" id="d-entregadas" step=".1">
+    <label for="d-admin">D.Admin</label>
+    <input type="number" name="d-admin" id="d-admin" step=".1">
+    <label for="d-completas">D.Completas</label>
+    <input type="number" name="d-completas" id="d-completas" step=".1">
+    <label for="p-entregadas">P.Entregadas</label>
+    <input type="number" name="p-entregadas" id="p-entregadas" step=".1">
+    <label for="p-admin">P.Admin</label>
+    <input type="number" name="p-admin" id="p-admin" step=".1">
+    <label for="p-completas">P.Completas</label>
+    <input type="number" name="p-completas" id="p-completas" step=".1">
+    <button id="modificar">Modificar Datos</button>
+    <hr>
+    <div>
+        <h4>Resultados</h4>
+        <p id="estado"></p>
+    </div>
+    <hr>
+    <h3>Tabla de Vacunación</h3>
+    <button id="xhr">Cargar datos vacunación (XMLHttpRequest)</button>
+    <button id="fetch">Cargar datos vacunación (Fetch)</button><br>
+    <table id="tabla">
+
+    </table>
+</body>
+</html>

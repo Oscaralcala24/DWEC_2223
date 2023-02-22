@@ -1,0 +1,23 @@
+<Series>
+    <serie>
+        <titulo>Juego de tronos</titulo>
+        <cadena>HBO</cadena>
+        <director>Oscar Alcala</director>
+        <anho>2015</anho>
+        <terminada>si</terminada>
+    </serie>
+    <serie>
+        <titulo>Los Simspsons</titulo>
+        <cadena>Fox</cadena>
+        <director>Pepito</director>
+        <anho>1999</anho>
+        <terminada>no</terminada>
+    </serie>
+    <serie>
+        <titulo>Shameless</titulo>
+        <cadena>HBO</cadena>
+        <director>Antonio Lopez</director>
+        <anho>2005</anho>
+        <terminada>si</terminada>
+    </serie>
+</Series>

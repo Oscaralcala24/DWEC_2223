@@ -1,0 +1,25 @@
+{
+    "Series": [
+      {
+        "titulo": "Juego de Tronos",
+        "cadena": "HBO",
+        "director": "Oscar Alcala",
+        "anho": 2015,
+        "terminada": "si"
+      },
+      {
+        "titulo": "Los Simspsons",
+        "cadena": "Fox",
+        "director": "Pepito",
+        "anho": 1999,
+        "terminada": "no"
+      },
+      {
+        "titulo": "Shameless",
+        "cadena": "HBO",
+        "director": "Antonio Lopez",
+        "anho": 2005,
+        "terminada": "si"
+      }
+    ]
+  }

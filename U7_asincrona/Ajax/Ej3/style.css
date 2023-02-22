@@ -1,0 +1,24 @@
+tr td:first-child{
+    font-weight: bold;
+}
+tr td:nth-child(2){
+    font-style: italic;
+}
+.rojo{
+    color: red;
+}
+.amarillo{
+    color:yellow;
+}
+.verde{
+    color: green;
+}
+td,th{
+    text-align: center;
+    border: 1px solid black;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}

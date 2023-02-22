@@ -1,0 +1,12 @@
+div:first-of-type{
+    height: 100px;
+}
+table td, table th {
+    width: 20%;
+    text-align: center;
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+}
